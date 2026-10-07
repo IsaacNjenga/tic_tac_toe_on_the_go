@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { navigating } from '$app/stores';
+	import { navigating } from '$app/state';
 </script>
 
-{#if $navigating}
+{#if navigating}
 	<div
 		class="fixed top-0 right-0 left-0 z-100 h-0.5 w-full overflow-hidden bg-primary/10 backdrop-blur-xs"
 	>
