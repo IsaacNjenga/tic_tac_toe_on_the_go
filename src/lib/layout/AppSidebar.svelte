@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { Circle, Sparkles, X } from '@lucide/svelte';
+	import { Circle, X } from '@lucide/svelte';
 	import { appConfig } from '../config/app';
 	import { navigationItems } from '../config/navigation';
 </script>
@@ -31,10 +31,6 @@
 	</nav>
 
 	<div class="sidebar-bottom">
-		<div class="sidebar-note">
-			<Sparkles size={17} />
-			<p>Good games.<br /><strong>Great company.</strong></p>
-		</div>
 		<div class="sidebar-footer"><span class="online-dot"></span> MADE FOR TWO</div>
 	</div>
 </aside>

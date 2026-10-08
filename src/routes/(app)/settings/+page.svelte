@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Moon, Sparkles, Sun, Trophy } from '@lucide/svelte';
+	import { Moon, Sun, Trophy } from '@lucide/svelte';
 	import { mode, toggleMode } from 'mode-watcher';
 
 	let darkMode = $derived(mode.current === 'dark');
@@ -10,12 +10,12 @@
 </script>
 
 <svelte:head>
-	<title>Settings — A little friendly rivalry</title>
+	<title>Settings</title>
 </svelte:head>
 
 <section class="page-content settings-page">
 	<div class="intro">
-		<div class="eyebrow"><span class="eyebrow-sparkle">✳</span> MAKE IT YOURS</div>
+		<!-- <div class="eyebrow"><span class="eyebrow-sparkle">✳</span> MAKE IT YOURS</div> -->
 		<h1>A little more<br /><span>your style.</span></h1>
 		<p class="intro-copy">Set the mood for your next legendary match.</p>
 	</div>
@@ -51,15 +51,12 @@
 	</div>
 
 	<div class="settings-tip">
-		<Sparkles size={17} />
-		<span>Good to know</span>
 		<p>
 			Your scoreboard is saved on this device. Clear your scores whenever you want a fresh start.
 		</p>
 	</div>
 
 	<footer class="page-footer">
-		<span>NO CLOCKS. NO PRESSURE. JUST VIBES.</span>
 		<span>BUILT FOR THE LOVE OF THE GAME <span class="footer-heart">♥</span></span>
 	</footer>
 </section>

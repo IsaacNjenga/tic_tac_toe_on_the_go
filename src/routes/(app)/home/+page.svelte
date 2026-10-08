@@ -98,7 +98,7 @@
 </script>
 
 <svelte:head>
-	<title>Tic Tac Toe — A little friendly rivalry</title>
+	<title>Tic Tac Toe — On The Go</title>
 	<meta
 		name="description"
 		content="A little tic tac toe, a lot of friendly rivalry. Play a round and keep the score."
@@ -107,9 +107,8 @@
 
 <section class="page-content game-page">
 	<div class="intro">
-		<div class="eyebrow"><span class="eyebrow-sparkle">✳</span> THE CLASSIC, WITH A TWIST</div>
+		<!-- <div class="eyebrow"><span class="eyebrow-sparkle">✳</span> THE CLASSIC, WITH A TWIST</div> -->
 		<h1>Ready, set,<br /><span>tic tac toe!</span></h1>
-		<p class="intro-copy">Two players. One tiny board. An unreasonable amount of glory.</p>
 	</div>
 
 	<div class="game-layout">
@@ -200,7 +199,6 @@
 	</div>
 
 	<footer class="page-footer">
-		<span>NO CLOCKS. NO PRESSURE. JUST VIBES.</span>
 		<span>BUILT FOR THE LOVE OF THE GAME <span class="footer-heart">♥</span></span>
 	</footer>
 </section>
