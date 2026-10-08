@@ -1,8 +1,15 @@
 {
 	"extends": "$app/tsconfig",
 	"compilerOptions": {
+		"rewriteRelativeImportExtensions": true,
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
 		"strict": true,
-		"types": ["$app/types", "node", "./worker-configuration.d.ts"]
-	},
-	"include": ["src", "vite.config.ts"]
+		"moduleResolution": "bundler"
+	}
 }
